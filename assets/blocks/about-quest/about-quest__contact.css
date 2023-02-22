@@ -1,0 +1,36 @@
+.about-quest__contact {
+    display: flex;
+}
+
+.about-quest__contact_text {
+    display: block;
+    max-width: 50%;
+    margin-left: 15px;
+}
+.about-quest__contact_card {
+    max-width: 50%;
+    min-width: 450px;
+    border: none;
+    min-height: 250px;
+}
+
+.about-quest__contact_phone {
+    text-decoration: none;
+    font-family: 'Play', sans-serif;
+    font-size: 1.4em;
+    color: #f2f2f2;
+    font-weight: 800;
+    margin: 20px 10px 0;
+}
+
+@media screen and (max-width: 790px) {
+    .about-quest__contact {
+        flex-wrap: wrap;
+    } 
+    .about-quest__contact_text {
+        max-width: 100%;
+    }
+    .about-quest__contact_card {
+        max-width: 600px;
+        width: 350px;
+}

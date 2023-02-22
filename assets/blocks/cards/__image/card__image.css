@@ -1,0 +1,38 @@
+.card__image {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+ }
+
+.card__foto {
+    object-fit: cover;
+    object-position: top right;
+    width: 100%;
+    border-radius: 4px;
+    z-index: 1;
+    transform: .9s;
+}
+
+ .card__age {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 2;
+    font-size: 1.2em;
+    margin: 0;
+ }
+ 
+ .card__class {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 5px 50px 0 5px;
+    color: rgba(210 19 22);
+    display: block;
+    border-radius: 0 10px 0 0;
+    font-family: 'Exo 2', sans-serif;
+    font-size: .9em;
+    
+ }

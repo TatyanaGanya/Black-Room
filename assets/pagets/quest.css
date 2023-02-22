@@ -1,0 +1,26 @@
+@import url(../blocks/header/header.css);
+@import url(../button/button.css);
+@import url(../button/_description/button_description.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/about-quest/about-quest.css);
+@import url(../blocks/about-quest/about-quest__iframe.css);
+@import url(../blocks/about-quest/about-quest__context.css);
+@import url(../blocks/about-quest/about-quest__head.css);
+@import url(../blocks/about-quest/about-quest__video.css);
+@import url(../galereia/galereya.css);
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/about-quest/about-quest__contact.css);
+@import url(../blocks/about-quest/about-quest__text_metro.css);
+@import url(../blocks/footer/footer.css);
+
+body {
+    margin: 0 auto 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+    font-size: 15px;
+    background: rgba(10 10 10);
+    color: #E6E6E6;
+    max-width: 1500px;
+    min-width: 100vh;
+}

@@ -1,0 +1,37 @@
+.about-quest__video {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin: 0 auto 0;
+}
+
+.about-quest__video_iframe {
+    width: 45%;
+    min-width: 300px;
+    min-height: 200px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.about-quest__video_text {
+    display: block;
+    width: 45%;
+
+}
+
+@media only screen and (max-width: 1024px) { .about-quest__video {
+    flex-direction: column;
+    justify-content: center;
+}
+    .about-quest__video_iframe {
+        width: 80%;
+        min-height: 400px;
+       margin: 0 auto 0;
+}
+.about-quest__video_text {
+    width: 90%;
+    
+
+}
+
+}

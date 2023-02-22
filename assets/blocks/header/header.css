@@ -1,0 +1,139 @@
+.header {
+   max-width: 1500px;
+   width: 100%;
+   font-family: 'Play', sans-serif;
+   font-size: large;
+   position: fixed;
+   z-index: 99;
+   display: table;
+   top: 0;
+   background: rgba(22 22 22);
+}
+
+.logo-img {
+   height: 40px;
+}
+
+.phone-img {
+   height: 30px;
+}
+
+.toggle-icon {
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+   width: 30px;
+   height: 30px;
+   position: absolute;
+}
+#logo {
+   float:left;
+   width:25px;
+   font-weight:600;
+   text-decoration:none;
+   padding:11px 0;
+}
+nav {
+    width: auto;
+    float: right;
+    margin-top: 7px;
+}
+
+nav ul {
+    display:table;
+    float:right;
+    margin:0;
+    padding:0;
+}
+    
+nav ul li{
+    float:left;
+    list-style-type:none;
+    text-decoration:none;
+}
+    nav ul li:last-child{
+    padding-right:0;
+}
+
+nav ul li a{
+    color: #E6E6E6;
+    padding: 10px 19px 0;
+    display:inline-block;
+    text-decoration:none;
+    opacity: 1;
+    transform: .5s;
+}
+.header__activ {
+   color: rgba(218 19 22);
+   font-weight: 900;
+   text-shadow: 1px 1px 2px #E6E6E6);
+
+}
+nav ul li a:hover{
+opacity: 0.8;
+text-shadow: 1px 1px 2px black, 0 0 1.5em #E6E6E6;
+
+}
+input[type=checkbox],
+label{
+display:none;
+}
+
+@media only screen and (max-width: 880px) {
+    header{
+        padding: 5px;
+    }
+    #logo{
+        padding:5px;
+    }
+ input[type=checkbox]{
+    position:absolute;
+    top:-9999px;
+    left:-9999px;
+    background:none;
+    }
+ input[type=checkbox]:fous{
+    background:none;
+    }
+ label{
+    float:right;
+    display:inline-block;
+    cursor:pointer;
+    margin-right:65px;
+    }
+ input[type=checkbox]:checked ~ nav{
+    display:block;
+    }
+ nav{   display:none;
+    position:absolute;
+    right:0;
+    top: 37px;
+    background: linear-gradient( #0A0A0A, #131313);
+    opacity: .9;
+    padding:0;
+    z-index:99;
+    }
+ nav ul{
+    width:auto;
+    }
+ nav ul li{
+    float:none;
+    padding:0;
+    width:100%;
+    display:table;
+    }
+ nav ul li a{
+    color:#E6E6E6;
+    font-size:15px;
+    padding:10px 20px;
+    display:block;
+    border-bottom:1px solid rgba(225,225,225,0.1)
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    label{
+       padding:5px 0;
+       }
+    nav{
+       top:47px;
+       } 
+    }

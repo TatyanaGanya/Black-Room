@@ -1,0 +1,38 @@
+
+.gifs-fon {
+    background-image: url(../../../image/black-room-quest-intro-01.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.gifs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gifs-fon__about {
+    width: 80vh;
+    margin-right: 100px;
+    margin-top: 40vh;
+}
+
+.gifs__card {
+    text-align: left;
+    background: rgba(10, 10, 10, .9);
+    margin-bottom: 10px;
+    padding: 20px 30px 20px;
+    border-radius: 10px;
+}
+
+.gifs-fon__text {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 750px)  {
+    .gifs {
+        display: flex;
+       flex-direction: column;
+    }
+}

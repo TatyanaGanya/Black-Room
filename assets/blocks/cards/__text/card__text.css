@@ -1,0 +1,34 @@
+.card__text {
+    position: relative;
+    margin: 0;
+    text-align: left;
+    line-height: 1;
+ }
+
+ .card__title {
+    text-align: left;
+    margin: 0;
+    padding: 0 5px 0;
+    font-size: 1.1em;
+    font-family: 'Exo 2', sans-serif; 
+    
+ }
+
+ .card__about {
+   display: block;
+   width: 70%;
+   margin: 10px 5px 10px 20%;
+   text-align: left;
+   font-family: 'Exo 2', sans-serif;
+   font-weight: 100;
+   font-size: .9em;
+}
+
+ @media only screen and (max-width: 795px) {
+   .card__title {
+      font-size: 1em;
+   }
+   .card__text {
+      font-size: .9em;
+   }
+ }

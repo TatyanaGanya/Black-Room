@@ -1,0 +1,33 @@
+.reviews {
+    columns: 250px 3;
+    column-gap: 30px;
+}
+
+.reviews_text {
+    font-family: 'Neucha', cursive;
+    break-inside: avoid;
+}
+.reviews_autor {
+    font-family: 'Neucha', cursive;
+    text-align: right;
+    padding: 20px 20px 10px;
+}
+
+   .triangle {
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    background: rgba(38 38 38);
+    color: #fff;
+   }
+   .triangle::after, .triangle::before {
+    content: '';
+    position: absolute;
+    background:  rgba(38 38 38);
+    right: 20px; bottom: -9px;
+    width: 20px; height: 20px;
+    z-index: -1; /* Прячем за основным блоком */
+    transform: rotate(45deg); /* Поворачиваем на 45º */
+    -webkit-transform: rotate(45deg);
+   
+   }

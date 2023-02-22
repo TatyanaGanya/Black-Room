@@ -1,0 +1,15 @@
+.about-quest__list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 15px;
+    margin: 0 auto 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-quest__list {
+    grid-template-columns: repeat(auto-fill, 150px);
+    }
+}

@@ -1,0 +1,19 @@
+.about-quest__booking-all {
+    min-height: 600px;
+    width: 100%;
+    border: 0;
+}
+
+@media screen  and (max-width: 1000px) {
+    .about-quest__booking-all {
+        min-height: 800px;
+        border: 0;
+}
+}
+
+@media screen  and (max-width: 760px) {
+    .about-quest__booking-all {
+        min-height: 900px;
+        border: 0;
+}
+}

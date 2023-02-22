@@ -1,0 +1,40 @@
+
+.sale-fon {
+    background-image: url(../../../image/black-room-quest-intro-01.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+}
+
+.sale {
+    width: 90%;
+    margin: 0 auto 0;
+    padding: 0;
+}
+
+.sale__title {
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  text-align: left;
+}
+
+.sale__img {
+   float: left;
+    width: 40px;
+    margin: 10px;
+}
+
+.sale__text {
+    color: rgba(218 19 22);
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.sale__phone {
+    text-decoration: none;
+    color: rgba(218 19 22);
+    font-weight: 600;
+    font-size: 1.1em;
+}

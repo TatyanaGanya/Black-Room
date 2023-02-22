@@ -1,0 +1,21 @@
+@import url(../blocks/header/header.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/content_theme-black.css);
+@import url(../blocks/about-quest/about-quest.css);
+@import url(../blocks/about-quest/about-quest__text_center.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/card.css);
+@import url(../blocks/cards/__image/card__image.css);
+@import url(../blocks/cards/__text/card__text.css);
+@import url(../blocks/cards/__image/card__class_dark-theme.css);
+@import url(../blocks/about-quest/about-quest__list.css);
+@import url(../blocks/impotant/impotant.css);
+@import url(../blocks/iframe/about-quest__booking-all.css);
+@import url(../button/button.css);
+@import url(../button/_booking/button_booking.css);
+@import url(../button/_more/buuton__more.css);
+@import url(../blocks/footer/footer.css);
+
+
+
+
