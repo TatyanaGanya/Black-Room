@@ -8,3 +8,10 @@
 .about-quest__text_metro_blue {
     color: rgba(94 12 117);
 }
+.about-quest__text_metro_red {
+    color: red;
+}
+
+.about-quest__text_metro_green {
+    color: green;
+}
